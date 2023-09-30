@@ -9,4 +9,4 @@ jobs:
         - name: Check out repository
           uses: actions/checkout@v4
         - name: Use local my-action
-          uses: ./
+          uses: ./.github/workflows/local
