@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "tsc -outDir dist"
+    "build": "tsc src/index.ts -outDir dist"
   },
   "devDependencies": {
     "typescript": "^5.2.2"
