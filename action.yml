@@ -1,5 +1,5 @@
 name: 'github-actions-apps-token'
 description: 'GitHub Actions to obtain GitHub Apps token'
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
